@@ -1,6 +1,6 @@
 version: 0.1
    
 phases:
-  deploy:
+  build:
     commands:
       - aws s3 sync ./ s3://probableprime.co.uk
